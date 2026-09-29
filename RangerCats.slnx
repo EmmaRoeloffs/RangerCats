@@ -6,8 +6,41 @@
   </Configurations>
   <Project Path="RangerCats.Api/RangerCats.Api.csproj" />
   <Folder Name="/RangerCats.Web/">
-    <File Path="RangerCats.Web/package.json" />
     <File Path="RangerCats.Web/index.html" />
+    <File Path="RangerCats.Web/jsconfig.json" />
+    <File Path="RangerCats.Web/package.json" />
     <File Path="RangerCats.Web/README.md" />
+    <File Path="RangerCats.Web/vite.config.js" />
+    <Folder Name="/public/">
+      <File Path="RangerCats.Web/public/favicon.ico" />
+    </Folder>
+    <Folder Name="/src/">
+      <File Path="RangerCats.Web/src/App.vue" />
+      <File Path="RangerCats.Web/src/main.js" />
+      <Folder Name="/assets/">
+        <File Path="RangerCats.Web/src/assets/base.css" />
+        <File Path="RangerCats.Web/src/assets/logo.svg" />
+        <File Path="RangerCats.Web/src/assets/main.css" />
+      </Folder>
+      <Folder Name="/components/">
+        <File Path="RangerCats.Web/src/components/HelloWorld.vue" />
+        <File Path="RangerCats.Web/src/components/TheWelcome.vue" />
+        <File Path="RangerCats.Web/src/components/WelcomeItem.vue" />
+        <Folder Name="/icons/">
+          <File Path="RangerCats.Web/src/components/icons/IconCommunity.vue" />
+          <File Path="RangerCats.Web/src/components/icons/IconDocumentation.vue" />
+          <File Path="RangerCats.Web/src/components/icons/IconEcosystem.vue" />
+          <File Path="RangerCats.Web/src/components/icons/IconSupport.vue" />
+          <File Path="RangerCats.Web/src/components/icons/IconTooling.vue" />
+        </Folder>
+      </Folder>
+      <Folder Name="/router/">
+        <File Path="RangerCats.Web/src/router/index.js" />
+      </Folder>
+      <Folder Name="/views/">
+        <File Path="RangerCats.Web/src/views/AboutView.vue" />
+        <File Path="RangerCats.Web/src/views/HomeView.vue" />
+      </Folder>
+    </Folder>
   </Folder>
 </Solution>
