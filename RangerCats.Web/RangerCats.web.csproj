@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.Build.NoTargets/3.7.0">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <EnableDefaultItems>false</EnableDefaultItems>
+  </PropertyGroup>
+  <ItemGroup>
+    <!-- ponytail: glob-only display project for VS Solution Explorer; Vite ignores it. Split to real tooling if Web gains a build step. -->
+    <None Include="**/*" Exclude="node_modules/**;dist/**;bin/**;obj/**" />
+  </ItemGroup>
+</Project>
