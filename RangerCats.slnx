@@ -5,5 +5,4 @@
     <Platform Name="x86" />
   </Configurations>
   <Project Path="RangerCats.Api/RangerCats.Api.csproj" />
-  <Project Path="RangerCats.Web/RangerCats.Web.csproj" />
 </Solution>
