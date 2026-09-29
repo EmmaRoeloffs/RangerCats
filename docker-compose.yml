@@ -1,0 +1,11 @@
+services:
+  api:
+    build: ./RangerCats.Api
+    ports:
+      - "5080:8080"
+  web:
+    build: ./RangerCats.Web
+    ports:
+      - "8080:80"
+    depends_on:
+      - api
