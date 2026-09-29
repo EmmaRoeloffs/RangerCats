@@ -5,4 +5,9 @@
     <Platform Name="x86" />
   </Configurations>
   <Project Path="RangerCats.Api/RangerCats.Api.csproj" />
+  <Folder Name="/RangerCats.Web/">
+    <File Path="RangerCats.Web/package.json" />
+    <File Path="RangerCats.Web/index.html" />
+    <File Path="RangerCats.Web/README.md" />
+  </Folder>
 </Solution>
